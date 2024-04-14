@@ -73,8 +73,7 @@ class AnnotationWindow(QWidget):
         if os.path.exists(annotation_file):
             self.show_last_annotation_popup()
 
-    def show_last_annotation_popup(self):
-        QMessageBox.information(self, "上次标注结果", "上次标注结果已加载")
+
     def select_triple(self, category):
         selected_text = self.text_edit.textCursor().selectedText()
         if selected_text:
@@ -232,6 +231,13 @@ class myMainWindow(Ui_MainWindow, QMainWindow):
         msg.setText("操作成功")
         msg.setIcon(QMessageBox.Information)
         msg.exec_()
+    #曾经提取过的视频读入成功返回消息框
+    def show_last_annotation_popup(self):
+        msg = QMessageBox()
+        msg.setWindowTitle("Success")
+        msg.setText("上次提取信息已加载")
+        msg.setIcon(QMessageBox.Information)
+        msg.exec_()
     def convert_audio_to_text(self):
         selected_items = self.audio_listWidget.selectedItems()
         if selected_items:
@@ -264,7 +270,9 @@ class myMainWindow(Ui_MainWindow, QMainWindow):
                 if not self.check_frame_folder(file):
                     self.uploaded_files.append(file)
                     self.Video_listWidget.addItem(os.path.basename(file))
-        self.operation_successful_popup()
+                    self.operation_successful_popup()
+                else:
+                    self.show_last_annotation_popup()
     def extract_text_from_video(self,video_file):
         frame_time = int(self.frame_time_edit.text())
         selected_items = self.Video_listWidget.selectedItems()
