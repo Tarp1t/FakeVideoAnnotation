@@ -125,7 +125,7 @@
      <property name="geometry">
       <rect>
        <x>-40</x>
-       <y>0</y>
+       <y>-10</y>
        <width>1191</width>
        <height>741</height>
       </rect>
@@ -277,40 +277,6 @@
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="btn_convert_video_to_audio">
-    <property name="geometry">
-     <rect>
-      <x>902</x>
-      <y>357</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>转换为音频</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>resoureces/images/convertToAudio.png</normaloff>resoureces/images/convertToAudio.png</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn_convert_audio_to_text">
-    <property name="geometry">
-     <rect>
-      <x>902</x>
-      <y>627</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>转换为文本</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>resoureces/images/convertToText.png</normaloff>resoureces/images/convertToText.png</iconset>
-    </property>
-   </widget>
    <widget class="QListWidget" name="Video_listWidget">
     <property name="geometry">
      <rect>
@@ -329,33 +295,6 @@
       <width>281</width>
       <height>231</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QListWidget" name="Text_listWidget">
-    <property name="geometry">
-     <rect>
-      <x>1020</x>
-      <y>40</y>
-      <width>256</width>
-      <height>311</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn_Annotation">
-    <property name="geometry">
-     <rect>
-      <x>1180</x>
-      <y>360</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>进入标注</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>resoureces/images/judge .png</normaloff>resoureces/images/judge .png</iconset>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -399,6 +338,145 @@
      </item>
      <item>
       <widget class="QLineEdit" name="frame_time_edit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QListWidget" name="Text_listWidget">
+    <property name="geometry">
+     <rect>
+      <x>1028</x>
+      <y>38</y>
+      <width>241</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>357</y>
+      <width>281</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="btn_clear_videos">
+       <property name="text">
+        <string>清除表项</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_convert_video_to_audio">
+       <property name="text">
+        <string>转换为音频</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resoureces/images/convertToAudio.png</normaloff>resoureces/images/convertToAudio.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>627</y>
+      <width>281</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="btn_clear_audios">
+       <property name="text">
+        <string>清除表项</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_convert_audio_to_text">
+       <property name="text">
+        <string>转换为文本</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resoureces/images/convertToText.png</normaloff>resoureces/images/convertToText.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>350</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="btn_clear_texts">
+       <property name="text">
+        <string>清除表项</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_Annotation">
+       <property name="text">
+        <string>进入标注</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resoureces/images/judge .png</normaloff>resoureces/images/judge .png</iconset>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>

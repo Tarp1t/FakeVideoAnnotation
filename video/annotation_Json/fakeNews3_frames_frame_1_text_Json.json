@@ -1,0 +1,16 @@
+{
+    "category": "政治",
+    "category_index": 0,
+    "text_length": 49,
+    "annotated_text": "爆炸造成至少73人死亡\n3000多人受伤\n",
+    "noun_text": [
+        "死亡",
+        "人"
+    ],
+    "verb_text": [
+        "爆炸\u000b受伤"
+    ],
+    "property_text": [
+        ""
+    ]
+}

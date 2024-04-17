@@ -1,0 +1,18 @@
+{
+    "category": "社会",
+    "category_index": 4,
+    "text_length": 102,
+    "annotated_text": "潇湘景报\nm21影m湖南\n女子跟家人闹矛盾后\n打开窗户跳下砸穿装饰板\n所幸楼层较低\n女子已\n它是个装饰板\n",
+    "noun_text": [
+        "女子",
+        "装饰板",
+        "女子",
+        "家人"
+    ],
+    "verb_text": [
+        "跳下\u000b打开\u000b闹矛盾"
+    ],
+    "property_text": [
+        ""
+    ]
+}

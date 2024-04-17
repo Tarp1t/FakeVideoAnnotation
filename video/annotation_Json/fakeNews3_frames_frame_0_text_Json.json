@@ -1,0 +1,16 @@
+{
+    "category": "政治",
+    "category_index": 0,
+    "text_length": 55,
+    "annotated_text": "当地时间8月4日，黎巴嫩首都\n贝鲁特市区发生巨大爆炸\n",
+    "noun_text": [
+        "市区",
+        "首都"
+    ],
+    "verb_text": [
+        "发生\u000b爆炸"
+    ],
+    "property_text": [
+        ""
+    ]
+}

@@ -145,6 +145,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.Annotation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Edit.executor&quot;: &quot;Run&quot;,
     &quot;Python.GUI.executor&quot;: &quot;Run&quot;,
     &quot;Python.Ifasr_new.executor&quot;: &quot;Run&quot;,
     &quot;Python.VideoPlayer.executor&quot;: &quot;Run&quot;,
@@ -154,8 +155,10 @@
     &quot;Python.py_player_demo2.executor&quot;: &quot;Run&quot;,
     &quot;Python.showAndTell.executor&quot;: &quot;Run&quot;,
     &quot;Python.testOCR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.批量改名.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/36057/Desktop/fakeVideoAnnotation_PyQt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -356,6 +359,12 @@
       <workItem from="1712553922359" duration="9859000" />
       <workItem from="1712883806953" duration="9470000" />
       <workItem from="1713084218175" duration="437000" />
+      <workItem from="1713093242774" duration="5048000" />
+      <workItem from="1713164230525" duration="305000" />
+      <workItem from="1713164652642" duration="9579000" />
+      <workItem from="1713321535833" duration="6304000" />
+      <workItem from="1713333988498" duration="631000" />
+      <workItem from="1713335659521" duration="711000" />
     </task>
     <servers />
   </component>
@@ -407,11 +416,13 @@
     <SUITE FILE_PATH="coverage/PyQt_Video_Demo_master$showAndTell.coverage" NAME="showAndTell 覆盖结果" MODIFIED="1710934673776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt_Video_Demo_master$testOCR.coverage" NAME="testOCR 覆盖结果" MODIFIED="1710575334382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resoureces" />
     <SUITE FILE_PATH="coverage/py_player_demo1_py$py_player_demo2.coverage" NAME="py_player_demo2 覆盖结果" MODIFIED="1710234050296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$Edit.coverage" NAME="Edit 覆盖结果" MODIFIED="1713164741940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/video" />
     <SUITE FILE_PATH="coverage/PyQt_Video_Demo_master$Ifasr_new.coverage" NAME="Ifasr_new 覆盖结果" MODIFIED="1712302258793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$VideoPlayer.coverage" NAME="VideoPlayer 覆盖结果" MODIFIED="1712326111363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$VideoPlayer.coverage" NAME="VideoPlayer 覆盖结果" MODIFIED="1713321464104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt_Video_Demo_master$py_player_demo2.coverage" NAME="py_player_demo2 覆盖结果" MODIFIED="1710161807973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$GUI.coverage" NAME="GUI 覆盖结果" MODIFIED="1712400104685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_player_demo1_py$player.coverage" NAME="player 覆盖结果" MODIFIED="1710234079482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$.coverage" NAME="批量改名 覆盖结果" MODIFIED="1713164460005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fakeVideoAnnotation_PyQt$Annotation.coverage" NAME="Annotation 覆盖结果" MODIFIED="1712321084513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQt_Video_Demo_master$iat_ws_python3.coverage" NAME="iat_ws_python3 覆盖结果" MODIFIED="1711684087690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0" />
   </component>
