@@ -1,5 +1,3 @@
-import os
-
 from PyQt5.QtWidgets import *
 from PyQt5.QtMultimedia import *
 from PyQt5.QtGui import *
@@ -30,7 +28,7 @@ class AnnotationWindow(QWidget):
         super().__init__()
         self.setWindowTitle("标注窗口")
         self.setGeometry(400, 400, 800, 600)
-        self.setWindowIcon(QIcon("resoureces/images/mannuate.png"))
+        self.setWindowIcon(QIcon("resources/images/mannuate.png"))
 
         layout = QVBoxLayout()
         self.file_name = file_name
@@ -40,17 +38,17 @@ class AnnotationWindow(QWidget):
 
         self.btn_noun = QPushButton("名词")
         self.btn_noun.clicked.connect(lambda: self.select_triple("n"))
-        self.btn_noun.setIcon(QIcon("resoureces/images/word.png"))
+        self.btn_noun.setIcon(QIcon("resources/images/word.png"))
         layout.addWidget(self.btn_noun)
 
         self.btn_verb = QPushButton("动词")
         self.btn_verb.clicked.connect(lambda: self.select_triple("v"))
-        self.btn_verb.setIcon(QIcon("resoureces/images/action.png"))
+        self.btn_verb.setIcon(QIcon("resources/images/action.png"))
         layout.addWidget(self.btn_verb)
 
         self.btn_property = QPushButton("属性")
         self.btn_property.clicked.connect(lambda: self.select_triple("f"))
-        self.btn_property.setIcon(QIcon("resoures/images/judge.png"))
+        self.btn_property.setIcon(QIcon("resources/images/judge.png"))
         layout.addWidget(self.btn_property)
 
         # 添加标注类别选择下拉框
@@ -197,7 +195,7 @@ class myMainWindow(Ui_MainWindow, QMainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.setWindowIcon(QIcon("C:/Users/36057/Desktop/fakeVideoAnnotation_PyQt/resoureces/images/shipinbiaozhu.png"))
+        self.setWindowIcon(QIcon("C:/Users/36057/Desktop/fakeVideoAnnotation_PyQt/resources/images/shipinbiaozhu.png"))
         self.setWindowTitle("Fake-Video-Annotation")
         self.menu_bar = self.menuBar()
         self.view_menu = self.menu_bar.addMenu("数据统计")

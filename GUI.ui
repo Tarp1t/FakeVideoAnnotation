@@ -184,7 +184,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/folder-open.png</normaloff>resoureces/images/folder-open.png</iconset>
+         <normaloff>resources/images/folder-open.png</normaloff>resources/images/folder-open.png</iconset>
        </property>
       </widget>
      </item>
@@ -201,7 +201,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/play2.png</normaloff>resoureces/images/play2.png</iconset>
+         <normaloff>resources/images/play2.png</normaloff>resources/images/play2.png</iconset>
        </property>
       </widget>
      </item>
@@ -218,7 +218,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/pause.png</normaloff>resoureces/images/pause.png</iconset>
+         <normaloff>resources/images/pause.png</normaloff>resources/images/pause.png</iconset>
        </property>
       </widget>
      </item>
@@ -242,7 +242,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/volume-high.png</normaloff>resoureces/images/volume-high.png</iconset>
+         <normaloff>resources/images/volume-high.png</normaloff>resources/images/volume-high.png</iconset>
        </property>
       </widget>
      </item>
@@ -314,7 +314,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/uploadFIle.png</normaloff>resoureces/images/uploadFIle.png</iconset>
+         <normaloff>resources/images/uploadFIle.png</normaloff>resources/images/uploadFIle.png</iconset>
        </property>
       </widget>
      </item>
@@ -325,7 +325,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/convertToText.png</normaloff>resoureces/images/convertToText.png</iconset>
+         <normaloff>resources/images/OCR.png</normaloff>resources/images/OCR.png</iconset>
        </property>
       </widget>
      </item>
@@ -351,7 +351,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -365,6 +365,10 @@
       <widget class="QPushButton" name="btn_clear_videos">
        <property name="text">
         <string>清除表项</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resources/images/action.png</normaloff>resources/images/action.png</iconset>
        </property>
       </widget>
      </item>
@@ -388,13 +392,13 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/convertToAudio.png</normaloff>resoureces/images/convertToAudio.png</iconset>
+         <normaloff>resources/images/convertToAudio.png</normaloff>resources/images/convertToAudio.png</iconset>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -408,6 +412,10 @@
       <widget class="QPushButton" name="btn_clear_audios">
        <property name="text">
         <string>清除表项</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resources/images/action.png</normaloff>resources/images/action.png</iconset>
        </property>
       </widget>
      </item>
@@ -431,13 +439,13 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/convertToText.png</normaloff>resoureces/images/convertToText.png</iconset>
+         <normaloff>resources/images/convertToText.png</normaloff>resources/images/convertToText.png</iconset>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>1020</x>
@@ -451,6 +459,10 @@
       <widget class="QPushButton" name="btn_clear_texts">
        <property name="text">
         <string>清除表项</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>resources/images/action.png</normaloff>resources/images/action.png</iconset>
        </property>
       </widget>
      </item>
@@ -474,7 +486,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>resoureces/images/judge .png</normaloff>resoureces/images/judge .png</iconset>
+         <normaloff>resources/images/mannuate.png</normaloff>resources/images/mannuate.png</iconset>
        </property>
       </widget>
      </item>
